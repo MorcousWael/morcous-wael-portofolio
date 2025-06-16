@@ -5,4 +5,10 @@
 .navbar {
   background-color: $primary-color;
   color: $gray-100;
+  #mainNavbar {
+    justify-content: space-evenly;
+  }
+  .navbar-nav {
+    gap: to-rem(140px);
+  }
 }
