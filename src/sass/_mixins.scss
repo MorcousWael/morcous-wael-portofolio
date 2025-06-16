@@ -1,0 +1,7 @@
+// mixin to control container width with a given percentage
+@mixin container-width($width) {
+  width: $width;
+  max-width: $width;
+  margin-left: auto;
+  margin-right: auto;
+}
