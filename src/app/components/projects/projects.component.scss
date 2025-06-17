@@ -1,0 +1,17 @@
+@use "variables" as *;
+@use "functions" as *;
+@use "mixins" as *;
+
+section {
+  .card {
+    .project-img {
+      height: to-rem(250px);
+      object-fit: contain;
+    }
+    .card-text {
+      height: to-rem(100px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

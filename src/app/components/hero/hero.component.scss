@@ -1,8 +1,50 @@
 @use "variables" as *;
 @use "functions" as *;
+@use "mixins" as *;
 
 section {
   color: white;
+  .gradient-title {
+    background: linear-gradient(90deg, #ff6ec4, #7873f5, #4ade80);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    animation: moveGradient 3s linear infinite alternate;
+  }
+
+  .gradient-subtitle {
+    background: linear-gradient(
+      90deg,
+      #f7971e,
+      #ffd200
+    ); // orange/yellow gradient
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
+  @keyframes moveGradient {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+  .blinking-cursor {
+    font-weight: bold;
+    animation: blink 1s step-start infinite;
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
   button {
     color: white;
   }

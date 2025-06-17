@@ -12,7 +12,7 @@
     justify-content: space-evenly;
   }
   .navbar-nav {
-    gap: to-rem(140px);
+    gap: 0 to-rem(140px);
     li {
       cursor: pointer;
     }
