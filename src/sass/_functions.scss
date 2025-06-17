@@ -6,7 +6,7 @@
 }
 
 @function to-px($rem-value) {
-  $px-value: $rem-value * 16;
+  $px-value: $rem-value * 16rem;
   @return #{$px-value}px;
 }
 

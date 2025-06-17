@@ -3,7 +3,7 @@
 @use "mixins" as *;
 
 .navbar {
-  background-color: $primary-color;
+  background-color: $gray-200;
   color: $gray-100;
   #mainNavbar {
     justify-content: space-evenly;
