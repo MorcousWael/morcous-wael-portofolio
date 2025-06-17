@@ -3,6 +3,9 @@
 @use "mixins" as *;
 
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   background-color: $gray-200;
   color: $gray-100;
   #mainNavbar {
@@ -10,5 +13,8 @@
   }
   .navbar-nav {
     gap: to-rem(140px);
+    li {
+      cursor: pointer;
+    }
   }
 }

@@ -1,0 +1,16 @@
+@use "variables" as *;
+@use "functions" as *;
+
+section {
+  color: white;
+  button {
+    color: white;
+  }
+  .brands {
+    img {
+      width: 100%;
+      height: to-rem(100px);
+      object-fit: contain;
+    }
+  }
+}

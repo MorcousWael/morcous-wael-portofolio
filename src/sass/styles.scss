@@ -5,3 +5,7 @@
 @use "functions" as *;
 @use "mixins" as *;
 @use "base" as *;
+
+body {
+  background-color: $primary-color;
+}
