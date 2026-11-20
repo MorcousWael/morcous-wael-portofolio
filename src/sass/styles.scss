@@ -5,7 +5,7 @@
 @use "functions" as *;
 @use "mixins" as *;
 @use "base" as *;
-
+@import "bootstrap-icons/font/bootstrap-icons.css";
 body {
   background-color: $primary-color;
 }

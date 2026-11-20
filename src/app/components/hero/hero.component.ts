@@ -7,7 +7,7 @@ import { Component, signal } from '@angular/core';
   styleUrl: './hero.component.scss',
 })
 export class HeroComponent {
-  titles = ['Front End Developer', 'Angular Developer'];
+  titles = ['Full Stack Developer (.NET & Node.js)', 'Angular Developer'];
   currentTitle = signal('');
   private titleIndex = signal(0);
   private charIndex = signal(0);
